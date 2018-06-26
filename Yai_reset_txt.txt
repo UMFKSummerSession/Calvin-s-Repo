@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/*
+  
+   
+   Reset Style Sheet for Young Artist INK website
+   Author: Calvin T Johnson 
+   Date:   
+   
+   Filename: Calvin T Johnson(YAI).css
+
+*/
+
+/* Structural Styles */
+
+address, footer, row, img, h1, h2, h3, h4, h5, nav, ol, p, section, span, ul,
+html, dl, nav, section, body, main { 
+
+ background: transparent; 
+  front-size: 100%; 
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+body{ 
+   line-height:1;
+   margin-left: auto;
+   magin-right: auto;
+   max-width: 960px;
+   min-width: 640px;
+   width: 95%;
+   background-image: url(white_smoke.png);
+   border-left: 1px solid rgb(169,169,169)
+   border-right: 1px solid rgb(169,169,169)
+}
+
+
+
+
+footer {
+background-color: rgb(211,211,211);
+}
+
+
+/*Shadow Styles */ 
+
+body{
+ box-shadow: inset rgb(211,211,211) -10px, -10px, 25px
+             inset rgb(211,211,211)  10px, 10px, 25px
+}
+
+/* Gradient Styles */
+
+footer{ 
+ background: linear-gradient(white, rgb(169,169,169), rgb(211,211,211) 70%); 
+
+
+
+/* Preventing Container Collapsing */
+
+footer::after {
+   clear: both;
+   content: "";
+   display:none;
+
+/* Horizontal Navigation */
+
+nav.horizontalNavigation a {
+    display:block;
+    text-align: center;
+}
+
+
+
+
+
+/* Typographic Styles */
+
