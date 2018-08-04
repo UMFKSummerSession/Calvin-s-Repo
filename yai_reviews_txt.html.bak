@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!--
+    <title>YAI~Reviews~Comments</title>    <!--<link href="ct_base.css" rel="stylesheet"> -->
+    <link href="YAI_layout2.css" rel="stylesheet">
+    <meta name="author" content="Calvin">
+    <meta name="description" content="Comments and Reviews From Customers (edit of CT_Layouts and main Review Page">
+    <style>
+ 
+  </style>
+  </head>
+  <body>
+    <div style="text-align: center;">
+      <div style="text-align: center;">
+        <header class="logo"> <br>
+        </header>
+      </div>
+    </div>
+    <article>
+      <h1 style="text-align: center;">Reviews</h1>
+      <blockquote>
+        <p> The Young Artist Ink has helped me in many ways that I thought was
+          not possible each and every time I had a problem the Calvin and his
+          team never failed to provide me with fast and amazing service. From
+          graphic art to writing my own personal website. Calvin has always
+          provided reliable service to me and my company. We will always depend
+          on YAI because we know they will deliver. Thanks Calvin for your
+          amazing service. </p>
+        <p><u><strong>Georgia Traveler</strong></u></p>
+      </blockquote>
+      <blockquote>
+        <p> From the first the call YAI has always made me feel as I was on a
+          cloud. Calvin gave me a quote I could not confuse. His services was
+          needed especially in a small time window. He solved my little problem
+          and in the end I am very thankful to have picked YAI for my website
+          logos. I must say that this team is on a roll! I look forward to
+          working with this company down the line.</p>
+        <p></p>
+        <p><u><strong>Alvin Churchman </strong></u></p>
+      </blockquote>
+      <strong><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </strong><br>
+      <div style="text-align: center;"><strong>Subscribe to Our Mailing List:</strong></div>
+      <div style="text-align: center;"><strong>&nbsp;Name:<input type="text"></strong><br>
+        <strong></strong><strong>Email: <input type="text"><br>
+        </strong></div>
+      <div style="text-align: center;"><strong>Date of birth:</strong></div>
+      <div style="text-align: center;"><strong></strong><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text"></strong></div>
+      <div style="text-align: center;"><strong>Select your Gender:</strong></div>
+      <div style="text-align: center;"><label for="male">Male</label><input name="gender"
+          id="male" value="male" type="radio"><br>
+        <label for="female">Female</label><input name="gender" id="female" value="female"
+          type="radio"><br>
+        <label for="other">Other</label><input name="gender" id="other" value="other"
+          type="radio"><br>
+        <br>
+        <input value="Submit" type="submit"></div>
+      <div style="text-align: center;"><strong></strong><br>
+      </div>
+      <strong></strong>
+      <form>
+        <fieldset>
+          <div style="margin: 0px auto; width: 75%; text-align: center;"><strong></strong><strong></strong>
+            <strong> </strong> </div>
+          <div style="text-align: center;"><br>
+          </div>
+          <p style="text-align: center;"><strong>We only use your Date of Birth
+              for our data! We like to throw in a surprise.</strong></p>
+          <p> </p>
+        </fieldset>
+      </form>
+    </article>
+    <p style="page-break-after: always;">&nbsp;</p>
+    <p style="page-break-before: always;">&nbsp; </p>
+    <div style="text-align: center;"><audio src="file:///C:/Users/CalvinTJohnson/Downloads/Seven%20Nation%20Army.mp3"
+        preload="auto" controls="controls" autoplay="autoplay" loop="loop"></audio></div>
+    <h2><br>
+    </h2>
+    <p><br>
+    </p>
+    <h2><br>
+    </h2>
+    <dl>
+      <dt>
+        <h2 style="text-align: center;">"Join us as we take you on a trip of
+          your life time!"</h2>
+      </dt>
+    </dl>
+    <p style="text-align: center;"><br>
+    </p>
+    <p></p>
+    <p><strong> We are always willing to let customers post a review. Good or
+        bad we are willing to hear from each of our clients! Contact us today so
+        that we can have your review posted! </strong></p>
+    <footer> Young Artist Ink • 23 University Dr, NW, Fort Kent • Maine USA </footer>
+  </body>
+</html>
