@@ -7,15 +7,58 @@
     <link href="YAI_layout2.css" rel="stylesheet">
     <meta name="author" content="Calvin">
     <meta name="description" content="Comments and Reviews From Customers (edit of CT_Layouts and main Review Page">
-    <title> YAIReviews Assignment 4 COS 125 – Web Page Design </title>
+    <title> YAIReviews Assignment 5 COS 125 – Web Page Design </title>
     <style>
- 
+ p {
+  text-align: center;
+  font-size: 60px;
+  margin-top:0px;
+}
+      
+
+      
   </style>
   </head>
   <body>
-    <div style="text-align: center;">
+    <p id="demo"></p>
+    <script>
+
+var countDownDate = new Date("Dec 25, 2018 15:37:25").getTime();
+
+var x = setInterval(function() {
+
+var now = new Date().getTime();
+var distance = countDownDate - now;
+    
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+  
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "Happy Xmas PeePs";
+    }
+}, 1000);
+      
+      
+      
+ function ContactHR() {
+    alert("Hello: We are able to work with you as soon as you contact the email below: Calvintjohnsont@gmail.com");
+}     
+      
+      
+      
+      
+</script> <div style="text-align: center;">
       <div style="text-align: center;">
-        <header class="logo"> <br>
+        <header class="logo"><cite style="color: #212854;"> <strong>^*Count
+              Down With US*^</strong></cite><br>
+          <br>
         </header>
       </div>
     </div>
@@ -110,7 +153,14 @@
     <p></p>
     <p><strong> We are always willing to let customers post a review. Good or
         bad we are willing to hear from each of our clients! Contact us today so
-        that we can have your review posted! </strong></p>
+        that we can have your review posted! <br>
+      </strong></p>
+    <p><strong><span style="color: #212854;">*</span>Above the top of this page
+        we have added a count down timer make a review today and you will
+        automatically be entered to win a gift at Xmas time!<br>
+      </strong></p>
+    <div style="text-align: center;"><span style="color: #212854;"><button onclick="ContactHR()">Click
+          Me To Contact HR</button></span></div>
     <footer> Young Artist Ink • 23 University Dr, NW, Fort Kent • Maine USA </footer>
   </body>
 </html>
