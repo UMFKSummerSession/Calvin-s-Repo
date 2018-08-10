@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!--
+           Filename: YAI_contact.html   -->
+    <title>Contacting The Young Artist Ink</title>
+    <link href="ct_base.css" rel="stylesheet">
+    <link href="YAI_layout2.css" rel="stylesheet">
+    <style>
+  body {
+    background-color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+  
+  
+  
+       {
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: red;
+    color: black and grey;
+}
+      
+      
+   /* Spaced to keep Order in code*/   
+      
+   /* Spaced to keep Order in code */   
+      
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}    
+      
+      
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: grey}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: blue;
+}
+      
+   @media print {
+    h1 {page-break-before: always;}
+}   
+      
+  var height = VisualViewport.height     
+    
+ h2.a {
+    visibility: visible;
+}     
+      
+      
+  
+  </style>
+  </head>
+  <body>
+    <header class="logo"> <br>
+      <a href="https://imgur.com/a/Y9OVZup"></a><br>
+      <div class="dropdown" style="background-color: black;"> <button class="dropbtn">OTHER
+
+          HTML Docs</button>
+        <div class="dropdown-content"> <a href="#">Link 1</a> <a href="#">Link
+            2</a> <a href="#">Link 3</a> </div>
+      </div>
+      <div class="header">
+        <h1>Young Artist Ink</h1>
+      </div>
+      <div class="topnav"> <a href="#">Home</a> <a href="#">Contact</a> <a href="#">Gallery</a>
+        <a href="#">Shop</a> </div>
+      <br>
+      <br>
+      <br>
+      <br>
+    </header>
+    <article>
+      <h1 style="text-align: center;">Contact Us</h1>
+      <h2.a> Calvin Rocks</h2.a>
+      <p><strong>Young Artist Ink provides service to not just people who are
+          interested in graphic art but we are also provide service to people
+          that are in need of help no matter the skill. The company started out
+          in 2016. Owned and founded by Calvin T Johnson. With over 14 years of
+          experience from internships and more; YAI offers their services to the
+          public.</strong></p>
+      <div style="text-align: center;"><strong> <em>We make your dreams come
+            true!<em>
+              <p> Contact us Today! to receive more information on your service
+                request.</p>
+            </em></em></strong><strong><em><em>
+              <p><u>207-834-5678</u></p>
+            </em></em></strong></div>
+      <strong><em><em> </em></em></strong> </article>
+    <p style="text-align: center;"><strong><em><em><em>Always growing and never
+              moving backwards! <em> </em></em></em></em></strong></p>
+    <strong><em><em><em><em>
+              <p><strong>We are always looking for ways to improve our service
+                  to our customers and also our sponsors. Over all we ask that
+                  you take the time out of your busy day and take our customer
+                  survey. This will help us improve our quality and service to
+                  you and others. In advance we thank you for choosing us to
+                  provide you with the tools to make your life happy.</strong></p>
+              <p><strong> MEET THE TEAM </strong></p>
+            </em></em></em></em></strong><em><em><em>
+          <ul>
+            <a href="#"> </a><a href="#"> </a>
+          </ul>
+        </em></em></em>
+    <div style="text-align: center;"><strong><em><em><em>Calvin T Johnson</em></em></em></strong></div>
+    <em><em><em>
+          <ul>
+            <a href="#"> </a>
+            <li>
+              <p> Hello my name is Calvin T Johnson and I am the <strong>Founder/Creator</strong>
+                of Young Artist Ink. I am from Atlanta Georgia. However, I
+                currently live in Fort Kent Maine. Starting this company was a
+                huge part in my life and is currently just a hobby of mine. This
+                is something that I enjoy doing and want to always help others
+                express their talent!</p>
+              <a href="#"> </a>
+              <p style="text-align: center;"> Email: <a href="mailto:%20%20%3Cdiv%20class=%22topnav%22%20style=%22background-color:%20black;%22%3E%20%3Ca%20href=%22#%22%3EJust%20a"
+
+                  target="_top">youngartistink@gmail.com</a></p>
+              <footer> Young Artist Ink • 23 University Dr, NW Fort Kent • Maine
+                USA </footer>
+            </li>
+          </ul>
+        </em></em></em>
+    
+  </body>
+</html>
