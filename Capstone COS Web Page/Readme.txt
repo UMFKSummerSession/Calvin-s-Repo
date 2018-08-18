@@ -17,5 +17,6 @@ Ref: w3c schools
 
 Book used in the class 
  Updated: 8/17/2018
+And the Files within the data set!
 
 Done: Yes [ ]  No [ X  ]
