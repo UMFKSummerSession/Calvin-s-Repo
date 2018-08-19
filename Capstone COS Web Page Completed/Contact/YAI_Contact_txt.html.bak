@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!--
+     Author:       Date:          -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YAI Contact </title>
+    <link href="Store2_base.css" rel="stylesheet">
+    <link href="Store_layout.css" rel="stylesheet">
+    <style> div.a {
+    text-decoration-line: overline underline;
+    text-decoration-style: wavy;
+}
+    
+   <style>
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+} 
+body {font-family: Times New Roman, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #302929;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}    
+    
+    
+    
+    
+    
+    </style>
+  </head>
+  <body>
+    <header> <br>
+      <nav>
+        <ul>
+          <li style="text-align: left;"><a href="file:///C:/Users/CalvinTJohnson/Desktop/1305503929_581166/html11/tutorial/YAI_Home_txt.html">Home</a></li>
+          <li><a href="file:///C:/Users/CalvinTJohnson/Desktop/shopping-cart/YAI%20Shopping%20Cart.html">Store</a></li>
+          <li><a href="#">News</a></li>
+          <li><b><a href="#">Contact~Us</a></b></li>
+          <li><br>
+          </li>
+          <li><a href="file:///C:/Users/CalvinTJohnson/Desktop/1305503929_581166/html11/tutorial/YAI_Sitemap_txt.html">Site
+              Map</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section><button class="button button2" disabled="disabled">!Click Me To
+        Enter!</button><br>
+      <div><br>
+      </div>
+      <div><br>
+      </div>
+      <div><br>
+      </div>
+      <div><br>
+      </div>
+      <div><br>
+      </div>
+      <div><br>
+      </div>
+    </section>
+    <aside>
+      <h1><span style="color: #eff7ef;">Welcome</span></h1>
+      <p>Welcome to our newest site! Our number one mission is to provide you
+        with quality service and make sure that you are well cared for. We are
+        always open to take your opinions on everything here at YAI Store.<br>
+        <br>
+        <strong>Unsure about what you want?</strong></p>
+      <p style="text-align: left;">Stumped? We figured that someone would be!
+        But does that mean you&nbsp; give up? Nope! <span style="color: #350d0c;">Contact
+          our Customer Service <span style="color: black;">Representative</span></span>
+        today to have your one on one support! </p>
+    </aside>
+    <article>
+      <h1><span style="color: #eff7ef;">Contact YAI TECH!<br>
+        </span></h1>
+      <p style="text-align: center;"> <strong><span style="color: #350d0c;"><u><b>We
+                Love to hear from everyone no matter how you was treated here at
+                YAI TECH!</b></u><br>
+          </span></strong></p>
+      <h3 style="text-align: center;"><b>Contact Form</b></h3>
+      <div class="container">
+        <form action="/action_page.php"> <strong style="color: #3f0000;"><label
+              for="fname">First Name</label></strong> <input id="fname" name="firstname"
+            placeholder="First name.." required="required" type="text"> <label
+            for="lname" style="color: #3f0000;">Last Name</label> <input id="lname"
+            name="lastname" placeholder="Last name.." required="required" type="text">
+          <label for="country" style="color: #3f0000;">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="usa">USA Outlaying States</option>
+            <option value="usa">Alaska</option>
+            <option value="usa">England</option>
+            <option value="usa">Decline to State</option>
+            <option value="usa">Other</option>
+          </select>
+          <label for="subject" style="color: #3f0000;">Subject</label> <textarea
+id="subject" name="subject" placeholder="Write something here.. Remember Leave your email if you want a response!"
+style="height:200px" required="required"></textarea> <input value="Submit" type="submit">
+        </form>
+      </div>
+      <br>
+      <p style="text-align: center;"><em><br>
+        </em></p>
+      <p style="text-align: center;"><em><br>
+        </em></p>
+    </article>
+    <footer>
+      <nav>
+        <ul>
+          <li style="text-align: center;"><strong><a href="#">Dev.Team</a></strong></li>
+          <li style="text-align: center;">(207)- 456 7879</li>
+        </ul>
+        <ul>
+          <li><strong>Our Locations:</strong></li>
+          <li>Georgia ~ South Coast HQ</li>
+          <li><span style="color: black;"><span style="color: white;">Maine ~
+                North Coast HQ</span> </span></li>
+          <li><a href="#">Vermont</a></li>
+          <li><a href="#">Arizona</a></li>
+          <li><span style="color: #f3f3f3;"><a href="#">California</a></span></li>
+        </ul>
+        <ul>
+          <li><a href="#">Colorado</a></li>
+          <li><a href="#">Connecticut</a></li>
+          <li><a href="#">Delaware</a></li>
+          <li><a href="#">North Carolina</a></li>
+          <li><a href="#">Iowa</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Texas</a></li>
+          <li><a href="#">Utah</a></li>
+          <li><a href="#">Washington</a></li>
+          <li><a href="#">Idaho</a></li>
+          <li><a href="#">AND Many MORE!</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

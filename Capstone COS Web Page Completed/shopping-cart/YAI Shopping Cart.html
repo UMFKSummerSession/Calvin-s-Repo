@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YAI Shopping Cart</title>
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
+    <meta name="robots" content="noindex,follow">
+  </head>
+  <body>
+    <header> <br>
+      <nav>
+        <ul>
+          <li style="text-align: left;"><a href="file:///C:/Users/CalvinTJohnson/Desktop/1305503929_581166/html11/tutorial/YAI_Home_txt.html">Home</a></li>
+          <li><a href="file:///C:/Users/CalvinTJohnson/Desktop/1305503929_581166/html11/tutorial/YAI_store_txt.html">Store</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="file:///C:/Users/CalvinTJohnson/Desktop/1305503929_581166/html11/tutorial/YAI_Contact_txt.html">Contact~Us</a></li>
+          <li><br>
+          </li>
+          <li><a href="file:///C:/Users/CalvinTJohnson/Desktop/1305503929_581166/html11/tutorial/YAI_Sitemap_txt.html">Site
+              Map</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="shopping-cart">
+      <!-- Title -->
+      <div class="title"> Electronic Store </div>
+      <!-- Product #1 -->
+      <div class="item">
+        <div class="buttons"> <span class="delete-btn"></span> <span class="like-btn"></span>
+        </div>
+        <div class="image"> <img src="item-1.png" alt="" style="width: 98px; height: 84px;">
+        </div>
+        <div class="description"> <span>ZTE Blade Max 3&nbsp;</span> <span>240
+            GB&nbsp;</span> <span style="font-family: monospace;">Pearl White
+            or Grey/Black</span> </div>
+        <div class="quantity"> <button class="plus-btn" type="button" name="button">
+            <img src="plus.svg" alt=""> </button> <input name="name" value="1"
+            type="text"> <button class="minus-btn" type="button" name="button">
+            <img src="minus.svg" alt=""> </button> </div>
+        <div class="total-price">$180</div>
+      </div>
+      <!-- Product #2 -->
+      <div class="item">
+        <div class="buttons"> <span class="delete-btn"></span> <span class="like-btn"></span>
+        </div>
+        <div class="image"> <img src="item-2.png" alt="" style="width: 92px; height: 92px;">
+        </div>
+        <div class="description"> <span>I Phone X<br>
+            <br>
+            180 GB</span><span></span> <span>White/Black</span> </div>
+        <div class="quantity"> <button class="plus-btn" type="button" name="button">
+            <img src="plus.svg" alt=""> </button> <input name="name" value="1"
+            type="text"> <button class="minus-btn" type="button" name="button">
+            <img src="minus.svg" alt=""> </button> </div>
+        <div class="total-price">$870</div>
+      </div>
+      <!-- Product #3 -->
+      <div class="item">
+        <div class="buttons">&nbsp; <span class="delete-btn"></span><span class="like-btn"></span>
+        </div>
+        <div class="image"> <img src="item-3.png" alt="" style="width: 87px; height: 81px;">
+        </div>
+        <div class="description"> <span>Our Legacy</span> <span>Bluetooth
+            devices</span> <span>All Colors&nbsp;</span> </div>
+        <div class="quantity"> <button class="plus-btn" type="button" name="button">
+            <img src="plus.svg" alt=""> </button> <input name="name" value="1"
+            type="text"> <button class="minus-btn" type="button" name="button">
+            <img src="minus.svg" alt=""> </button> </div>
+        <div class="total-price">$349</div>
+      </div>
+      <!----Product 4---->
+      <div class="item">
+        <div class="buttons">&nbsp; <span class="delete-btn"></span> </div>
+        <div class="buttons"><span class="like-btn" style="top: 4px; left: -79px;"></span>&nbsp;
+          <img src="file:///C:/Users/CalvinTJohnson/Desktop/shopping-cart/item-4.png"
+            alt="" style="width: 80px; height: 60px;"></div>
+        <div class="description"> <span>Google Pixel XL 2</span> <span>240 GB</span>
+          <span style="font-family: monospace;">Pearl White or </span><span style="font-family: monospace;">Grey/Black</span>
+        </div>
+        <div class="quantity"> <button class="plus-btn" type="button" name="button">
+            <img src="plus.svg" alt=""> </button> <input name="name" value="1"
+            type="text"> <button class="minus-btn" type="button" name="button">
+            <img src="minus.svg" alt=""> </button> </div>
+        <div class="total-price">$249</div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $('.minus-btn').on('click', function(e) {
+    		e.preventDefault();
+    		var $this = $(this);
+    		var $input = $this.closest('div').find('input');
+    		var value = parseInt($input.val());
+
+    		if (value > 1) {
+    			value = value - 1;
+    		} else {
+    			value = 0;
+    		}
+
+        $input.val(value);
+
+    	});
+
+    	$('.plus-btn').on('click', function(e) {
+    		e.preventDefault();
+    		var $this = $(this);
+    		var $input = $this.closest('div').find('input');
+    		var value = parseInt($input.val());
+
+    		if (value < 100) {
+      		value = value + 1;
+    		} else {
+    			value =100;
+    		}
+
+    		$input.val(value);
+    	});
+
+      $('.like-btn').on('click', function() {
+        $(this).toggleClass('is-active');
+      });
+    </script>
+    <footer>
+      <nav>
+        <ul>
+          <li style="text-align: center;"><strong><a href="#">Dev.Team</a></strong></li>
+          <li style="text-align: center;">(207)- 456 7879</li>
+        </ul>
+        <ul>
+          <li><strong>Our Locations:</strong></li>
+          <li>Georgia ~ South Coast HQ</li>
+          <li><span style="color: black;"><span style="color: white;">Maine ~
+                North Coast HQ</span> </span></li>
+          <li><a href="#">Vermont</a></li>
+          <li><a href="#">Arizona</a></li>
+          <li><span style="color: #f3f3f3;"><a href="#">California</a></span></li>
+        </ul>
+        <ul>
+          <li><a href="#">Colorado</a></li>
+          <li><a href="#">Connecticut</a></li>
+          <li><a href="#">Delaware</a></li>
+          <li><a href="#">North Carolina</a></li>
+          <li><a href="#">Iowa</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Texas</a></li>
+          <li><a href="#">Utah</a></li>
+          <li><a href="#">Washington</a></li>
+          <li><a href="#">Idaho</a></li>
+          <li><a href="#">AND Many MORE <br>
+            </a></li>
+          <li><br>
+          </li>
+          <li><span style="color: black;">\</span><a href="#">!</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <div style="text-align: center;"><img src="file:///C:/Users/CalvinTJohnson/Desktop/shopping-cart/Instagram-logo-300x300.png"
+        alt="" style="width: 46px; height: 43px;"><img src="file:///C:/Users/CalvinTJohnson/Desktop/shopping-cart/facebook-outline-transparent--24.png"
+        style="width: 41px; height: 41px;"><br>
+    </div>
+  </body>
+</html>
